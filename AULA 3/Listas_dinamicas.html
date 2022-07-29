@@ -1,0 +1,40 @@
+<! DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+      <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <style>
+	  body{
+			background-color: Black;
+			color: white
+			}
+	  </style>
+
+</head>
+
+<body>
+
+<h1> Lista dinâmica </h1>
+<h5> Insira um novo item: </h5>
+<input type="text" id="item">
+<input type="button" value="adicionar" onclick="adicionarItem()">
+
+<ul id="Lista">
+</ul>
+
+<script type="text/javascript">
+   function adicionarItem () {
+   let item = document.querySelector("#item") .value
+   console.log(item)
+   let lista = document.querySelector("#lista")
+   console.log(lista)
+
+   lista.innerHTML += "<li>" +item+ "</li>"
+   document.querySelector("#item").value = ''
+}
+</script>
+
+</body>
+
+</html>
