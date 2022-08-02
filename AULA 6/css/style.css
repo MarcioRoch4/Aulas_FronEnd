@@ -1,0 +1,61 @@
+body{
+	
+}
+h1{ color: NavajoWhite;
+	
+}
+
+.divSuperior{
+	min-height: 500px;
+	background-color: red;
+	margin: 100px;
+	padding-left: 100px;
+}
+.divSuperior h2{
+	background-color: gray;
+}
+.divCentral{
+	min-height: 500px;
+	background-image: url("../img/f12022.jpg");
+	background-attachment: fixed;
+	
+	
+}
+
+.divInferior{
+	min-height: 500px;
+}
+
+.container-lista{
+	color: red;
+	background-color: black;
+	font-family: Courier New, Arial, Helvetica, sans-serif;
+	min-height: 100vh;
+	padding: 30px;
+}
+
+.titulo-lista{
+    color: white;	
+}
+
+.lista{
+	list-style-type: none;
+	
+}
+
+.lista li {
+	margin-top: 15px;
+}
+
+.lista li a{
+	background-color: indigo;
+	text-decoration: none;
+	color: lime;
+	padding: 10px;
+	
+}
+
+.lista li a:hover{
+	background-color: DarkKhaki;
+	color: DarkOrange;
+}
