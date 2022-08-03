@@ -41,10 +41,10 @@ li a:hover:not(.active) {
 
 div.conteudo{
 	min-height: 500px;
-	background-color: grey;
+	background-color: #111;
 }
 
 div.conteudo-img{
-	background-image: url ("../img/gif.gif") ;
+	background-image: url ('../img/f12022.jpg') ;
 	background-attachment: fixed;
 }
