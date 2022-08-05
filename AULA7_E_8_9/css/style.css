@@ -73,8 +73,59 @@ div.conteudo p{
 div.conteudo-img{
 	background-image: url('../img/giff.gif');
 	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
 }
 
+div.card{
+	background-color: rgba(47,79,79,0.80);
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	min-width: 20%;
+	min-height: 100px;
+	text-align: center;
+	border-radius: 50px;
+	border: solid 2px yellow;
+	
+	
+}
+
+div.card h2{
+	color: rgb(245,245,245);
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow:3px 3px 5px orange;
+
+}
+
+
+div.card img{
+	background-color: rgb(255,255,255);
+	border-radius: 50px;
+	
+}
+
+div.card h3{
+	color: rgb(245,245,245);
+	text-shadow:3px 3px 5px rgb(255,140,0);
+}
+
+div.card a{
+	background-color: rgba(123,104,238,0.5);
+	text-decoration: none;
+	color: lime;
+	padding: 10px;
+	border-radius: 20px;
+	transition: text-shadow 1s linear infinite;
+	animation: animate 3s linear infinite;
+}
+
+div.card a:hover{
+	background-color: Orange;
+    color: black;
+	text-shadow:3px 3px 5px rgb(255,140,0);
+}
 @keyframes animate{
 	0%{
 		opacity: 0.1;
