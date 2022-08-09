@@ -1,0 +1,164 @@
+body{
+	margin: 5px;
+	padding: 10px;
+	background-color: rgb(255,255,224);
+}
+
+h1{
+	font-family: 'Arial';
+	text-align: center;
+	color: rgb(139,0,0);
+}
+.container{
+	padding: 10px;
+	display: row;
+	font-family: 'Helvetica';
+}
+
+.item{
+	border: solid 2px rgb(0,0,0);
+	height: 50vh;
+	width: 33%;
+	text-align: center;
+}
+
+#item1{
+	background-color: rgb(240,255,255);
+}
+#item2{
+	background-color: rgb(124,252,0);
+}
+#item3{
+	background-color: rgb(0,255,255);
+}
+
+@media (min-width: 751px) {
+	
+	.container{
+		flex-direction: column;
+		
+	}
+	
+	.item{
+		width: 100%;
+	}
+	
+	#item1{
+		background-color: rgb(47,79,79);
+	}
+	
+	#item2{
+		background-color: rgb(70,130,180);
+	}
+	
+	#item3{
+		background-color: rgb(154,205,50);
+	}
+	#img1{
+		background-color: rgb(64,224,208);
+	}
+	
+	#img2{
+		background-color: rgb(154,205,50);
+	}
+	
+	#img3{
+		background-color: rgb(70,130,180);
+	}
+	
+	#img4{
+	    background-color:(47,79,79);	
+	}
+
+}
+
+@media (min-width: 1000px){
+	
+	.container{
+		flex-direction: column;
+		
+	}
+	
+	.item{
+		width: 100%;
+	}
+	
+	#item1{
+		background-color: rgb(105,105,105);
+	}
+	
+	
+	#item2{
+		background-color: rgb(139,69,19);
+	}
+	
+	#item3{
+		background-color: rgb(0,0,128);
+	}
+	
+	#img1{
+		background-color: rgb(105,105,105);
+	}
+	
+	
+	#img2{
+		background-color: rgb(139,69,19);
+	}
+	
+	#img3{
+		background-color: rgb(0,0,128);
+	}
+	
+	#img4{
+		background-color: rgb(0,250,154);
+	}
+	
+	
+}
+
+.conteudo{
+	padding: 10px;
+	display: flex;
+	font-family: 'Helvetica';
+}
+h2{
+	color: rgb(255,255,255);
+}
+
+h3{
+	
+    color: rgb(255,255,255);
+	text-decoration: none;
+	text-shadow:3px 3px 5px gray;
+	font-family: 'Arial';
+	font-size: 15px;
+}
+
+h4{
+	color: rgb(255,255,255);
+}
+
+a{
+	padding: 5px;
+	text-decoration: none;
+	color: rgb(173,255,47);
+	background-color: rgb(0,191,255);
+	border: solid 2px rgb(0,0,0);
+	border-radius: 10px;
+}
+.card{
+	padding: 10px;
+	display: row;
+	font-family: 'Helvetica';
+	border: solid 2px rgb(0,0,0);
+	border-radius: 15px;
+	height: 50vh;
+	width: 33%;
+	text-align: center;
+	background-color: rgb(123,104,238);
+}
+
+.img{
+	margin: 5px;
+	padding: 20px;
+}
