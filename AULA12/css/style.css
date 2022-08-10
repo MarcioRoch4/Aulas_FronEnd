@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Signika:wght@300&display=swap');
+body{
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-top: 4vh;
+	font-family: 'Signika', sans-serif;
+}
+
+.heads{
+	display: flex;
+}
+
+.heads-left{
+	margin-right: 3vw;
+	min-height: 10vh;
+	width: 30vw;
+	background-color: rgb(255,140,0);
+}
+
+.heads-right{
+	min-height: 10vh;
+	width: 70vw;
+	background-color: rgb(255,0,255);
+}
+
+.superior{
+	display: flex;
+}
+
+.superior-top{
+	margin-top: 10vh;
+	min-height: 30vh;
+	width: 100vw;
+	background-color: rgb(124,252,0);
+}
+
+.centro{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.centro-geral1{
+    background-color: rgb(70,130,180);
+	margin-top: 10vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	min-width: 39vh;
+	min-height: 20vh;
+	
+}
+
+.centro-geral2{
+    background-color: rgb(211,211,211);
+	margin-top: 10vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	min-width: 39vh;
+	min-height: 20vh;
+}
+
+.centro-geral3{
+    background-color: rgb(47,79,79);
+	margin-top: 10vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	min-width: 39vh;
+	min-height: 20vh;
+}
+
+.texto{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.textos{
+	margin-top: 5vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	min-width: 39vh;
+	min-height: 20vh;
+
+}
+
+@media (max-width: 570px){
+	
+	
+}
+
+@media (min-width: 571px) and (max-width: 770px){
+	
+}
+
+@media (min-width: 771px) and (max-width: 1365){
+	
+}
+
+@media (max-width: 1366px){
+
+}
