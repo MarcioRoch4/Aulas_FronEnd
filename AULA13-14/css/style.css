@@ -1,0 +1,239 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('../img/novo.png');
+	background-size: cover;
+}
+
+nav{
+	padding-left: 10vw;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	height: 6vh;
+	background-color: rgb(138,43,226);
+	
+}
+
+nav input{
+     margin-top: 1vh;
+	 padding-top: 1vh;
+	 padding-left: 10vw;
+	 padding-right: 10vw;
+	 padding-bottom: 1vh;
+	 border-radius: 20px;
+	 background-color: rgb(255,255,240);
+	 color: rgb(0,0,0);
+	 font-weight: 700;
+	 
+}
+
+#lupa{
+	position: fixed;
+	margin-top: 2.5vh;
+	margin-left: 1.5vh;
+}
+
+#headfone{
+	float: right;
+	color: rgb(255,255,255);
+	margin-top: 2vh;
+	margin-right: 2vw;
+}
+
+nav img{
+	float: right;
+	height: 40px;
+	width: 40px;
+	margin-top: 1vh;
+	margin-right: 1vw;
+}
+
+nav span{
+	color: rgb(255,255,255);
+	float: right;
+	text-transform: uppercase;
+	margin-top: 2vh;
+	margin-right: 0;
+	font-family: 'Arial';
+	font-weight: 700;
+}
+
+section.info{
+	display: flex;
+	margin-top: 1vh;
+	border-top: solid 4px rgb(138,43,226);
+	border-bottom: solid 10px rgb(138,43,226);
+	padding-left: 2vh;
+	padding-right: 2vh;
+	
+}
+
+section.info div.endereco{
+	max-width: 25vw;
+	min-width: 25vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+section.info div.endereco p{
+	color: rgb(0,0,0);
+	text-align: center;
+}
+
+section.info div.img-endereco{
+	padding-top: 3vh;
+}
+
+section.info div.texto-endereco{
+	padding-top: 0;
+	padding-left: 2vh;
+	margin-bottom: 1vh;
+}
+section.info div.texto-endereco p{
+	margin-bottom: 10px;
+	font-size: 23px;
+	font-weight: 700;
+}
+
+section.info div.barra-lateral{
+	float: right;
+	width: 0.5vw;
+	background-color: rgb(138,43,226);
+	border-radius: 5px;
+	transform: rotate(15deg);
+}
+
+section.info div.horario{
+	max-width: 30vw;
+	min-width: 30vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+section.info div.horario h2{
+	font-weight: 700;
+	font-size: 30px;
+	color: rgb(0,0,0);
+	text-align: center;
+	margin-left: 40px;
+	margin-bottom: 3px;
+	
+}
+
+section.info div.horario p{
+	font-weight: 700;
+	font-size: 23px;
+	color: rgb(0,0,0);
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 3px;
+}
+
+section.info div.redes{
+	max-width: 30vw;
+	min-width: 30vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+section.info div.redes div.texto-redes{
+	font-weight: 700;
+	font-size: 23px;
+	color: rgb(0,0,0);
+	margin-left: 60px;
+	font-weight: 700;
+}
+
+section.info div.img-redes{
+	text-align: center;
+}
+
+section.info div.img-redes img{
+	margin-left: 1vw;
+}
+
+section.info div.img-redes-qr{
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+
+}
+
+section.info div.img-redes-qr img{
+	width: 180px;
+	height: 180px;
+}
+
+section.menu{
+	display: flex;
+	justify-content: space-between;
+	padding: 1vh 3vw;
+	border-bottom: solid 10px rgb(138,43,226);
+	border-top: solid 10px rgb(138,43,226);
+	background-color: rgba(	105,105,105, 0.4);
+}
+
+section.menu div.barra-lateral{
+	float: right;
+	width: 0.5vw;
+	background-color: rgb(138,43,226);
+	border-radius: 5px;
+	transform: rotate(15deg);
+}
+
+section.menu div.item-menu{
+	text-align: center;
+}
+
+section.menu div.item-menu i{
+	font-size: 40px;
+	color: rgb(138,43,226);
+	text-align: center;
+	transform: rotate(-30deg);
+}
+
+section.menu div.texto-menu p{
+	font-size: 20px;
+	font-weight: 700;
+	color: rgb(0,0,0);
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+section.menu div.item-menu:hover{
+	background-color: rgb(138,43,226);
+	cursor: pointer;
+}
+
+section.menu div.item-menu:hover p{
+	color: white;
+}
+
+section.menu div.item-menu:hover i{
+	color: white;
+}
+
+section.main{
+	margin: 0;
+	padding: 0;
+}
+
+section.main div.main-img{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-top: solid 4px rgb(138,43,226);
+	border-bottom: solid 4px rgb(138,43,226);
+
+	
+}
+
+section.main div.main-img img{
+	height: 15vw;
+	width: 100vw;
+}
+
+section.main div.main-text{
+	text-align: center;
+}
+
