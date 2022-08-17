@@ -1,0 +1,20 @@
+body{
+	background-color: rgb(255,255,224);
+	text-align: center;
+	font-family: "Arial";
+}
+
+.titulo-lista{
+	color: rgb(0,0,0);
+	font-family: "Arial";
+}
+
+.div-lista{
+	min-height: 50vh;
+	background-color: rgb(255,255,255);
+	margin-left: 5vw;
+	margin-right: 5vw;
+	border: solid 2px rgb(0,0,0);
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0, 0.2);
+}
