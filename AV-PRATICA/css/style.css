@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Signika:wght@300&display=swap');
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Signika', sans-serif;
+	background-image: url('../img/top.png');
+	
+}
+
+#logo{
+	margin-left: 10vh;
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-top: 1vh;
+}
+
+div.menu{
+	padding: 2px;
+	text-align: center;
+	padding-left: 50vh;
+	
+	
+}
+
+li{
+	display: inline;
+	padding-left: 15px;
+	
+
+}
+
+li a{
+	text-decoration: none;
+	color: rgb(255,255,255);
+	font-size: 20px;
+	padding: 16px;
+	text-shadow:3px 3px 5px gray;
+	
+
+}
+
+li a:hover:not(.active) {
+	background-color: Orange;
+    color: black;
+	text-shadow:3px 3px 5px orange;
+}
+
+div.imagem-top {
+	height: 10px;
+	margin-top: 2vh;
+	padding: 20vh;
+	
+
+
+
+}
+
+.imagem-top{
+	height: 15vw;
+	width: 99vw;
+	
+}
