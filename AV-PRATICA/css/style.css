@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Signika:wght@300&display=swap');
 
 body{
-	margin: 0px;
-	padding: 0px;
+	margin: 5px;
+	padding: 5px;
 	font-family: 'Signika', sans-serif;
-	background-image: url('../img/top.png');
+	background-image: url('../img/back.jpg');
+	
+   
 	
 }
 
 #logo{
 	margin-left: 10vh;
 	float: left;
-	height: 50px;
-	width: 50px;
+	height: 150px;
+	width: 150px;
 	margin-top: 1vh;
 }
 
 div.menu{
+	margin-top: 10px;
 	padding: 2px;
 	text-align: center;
 	padding-left: 50vh;
@@ -33,11 +36,13 @@ li{
 
 li a{
 	text-decoration: none;
-	color: rgb(255,255,255);
+	background-color: rgb(248,248,255);
+	color: rgb(0,0,0);
 	font-size: 20px;
-	padding: 16px;
+	padding: 10px;
 	text-shadow:3px 3px 5px gray;
-	
+	border: solid 2px rgb(255,99,71);
+	border-radius: 40px;
 
 }
 
@@ -48,17 +53,18 @@ li a:hover:not(.active) {
 }
 
 div.imagem-top {
-	height: 10px;
-	margin-top: 2vh;
+	margin: 2vh;
 	padding: 20vh;
-	
-
-
 
 }
 
-.imagem-top{
-	height: 15vw;
-	width: 99vw;
-	
+div.img-top{
+	border: solid 3px rgb(255,99,71);
+	display: flex;
 }
+
+div.texto{
+	color: rgb(255,255,255);
+	padding-left: 10px;
+}
+
