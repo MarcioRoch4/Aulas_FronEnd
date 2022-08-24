@@ -63,16 +63,37 @@ section.info div.superior{
 section.info div.imagem-superior{
 	width: 500px;
 	
-
-	
-   
 }
 
-footer{
+section.info div.rodape{
   background-color: rgb(255,140,0);
-  position: absolute;
+  margin-top: 20vh;
   bottom: 0;
+  position: absolute;
   width: 100%;
-  height: 15vh; 
+  height: 25vh; 
   border-top: solid 3px rgb(0,0,255)
+}
+
+section.info div.redes-sociais{
+	display: flex;
+	margin-top: 1vh;
+	margin-right: 3vh;
+	justify-content: right;
+	
+}
+
+section.info div.endereco{
+	margin-top: 0;
+	text-align: center;
+	
+}
+
+section.info div.texto-endereco p{
+	margin-top: 0;
+	margin: 6px;
+	font-size: 20px;
+	text-align: center;
+	
+	
 }
