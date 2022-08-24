@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+
+}
+
+nav{
+	padding-left: 5vw;
+	padding-bottom: 1vh;
+	height: 2vh;
+	
+}
+
+nav img{
+	float: left;
+	height: 150px;
+	width: 130px;
+
+}
+
+section.info{
+	padding: 0;
+	
+}
+
+section.info div.menus{
+	text-align: center;
+	padding-left: 20vh;
+}
+
+li{
+	display: inline;
+	padding-left: 15px;
+}
+
+li a{
+	text-align: center;
+	text-decoration: none;
+	background-color: rgb(255,140,0);
+	color: rgb(255,255,255);
+	font-size: 15px;
+	padding: 10px;
+	text-shadow:3px 3px 5px gray;
+	border-radius: 40px;
+}
+
+li a:hover:not(.active) {
+	background-color: rgb(0,0,255);
+    color: rgb(255,255,255);
+	
+}
+
+
+section.info div.superior{
+	margin-top: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+section.info div.imagem-superior{
+	width: 500px;
+	
+
+	
+   
+}
+
+footer{
+  background-color: rgb(255,140,0);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15vh; 
+  border-top: solid 3px rgb(0,0,255)
+}
