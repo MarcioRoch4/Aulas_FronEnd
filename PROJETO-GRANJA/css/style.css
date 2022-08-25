@@ -91,29 +91,58 @@ section.text div.texto-geral p{
 	font-size: 20px;
 }
 
-div.rodape{
+footer{
+	background-color: rgb(255,140,0);
 	display: flex;
-	background-color:rgb(255,140,0);
-	padding: 10px;
-	max-height: 200px;
+	
 }
 
-div.rodape-main{
-	padding: 10px;
-	margin-top: 10px;
-	margin-left: 20px;
-	min-width: 30%;
-	max-width: 20%;
-}
-
-div.rodape-main h3{
-	text-align: center;
+footer .boxs{
+	min-height: 150px;
+	margin-right:10vh;
+	margin-left: 10vh;
+	padding: 20px;
+	display: row;
 	color: rgb(255,255,255);
+	
 }
 
-div.rodape-main #foto{
-	float: right;
-	align-items: right;
-	justify-content: right;
+.boxs-endereco{
+    margin-right:35vh;
+	margin-left: 35vh;
+	padding: 20px;
+	color: rgb(255,255,255);
+	text-align: center;
+
+}	
+
+.boxs h4{
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+
+.boxs h4 a{
+	color: rgb(255,255,255);
+	margin: 10px 0px;
+	text-decoration: none;
+	text-align: justify;
+}
+
+h4 a:hover:not(.active) {
+	background-color: rgb(0,0,255);
+    color: rgb(255,255,255);
+	text-shadow:3px 3px 5px gray;
+	border-radius: 40px;
+}
+
+
+.boxs-sociais{
+	padding: 20px;
+	color: rgb(255,255,255);
+
+}
+
+.social{
+	display: flex;
 	
 }
