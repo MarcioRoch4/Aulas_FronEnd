@@ -52,48 +52,68 @@ li a:hover:not(.active) {
 }
 
 
-section.info div.superior{
+section.superior-banner div.superior{
 	margin-top: 15vh;
+
+}
+
+section.superior-banner div.imagem-superior{
 	display: flex;
-	justify-content: center;
 	align-items: center;
-
-}
-
-section.info div.imagem-superior{
-	width: 500px;
+	justify-content: center;
+	margin-left: 50vh;
+	margin-right: 50vh;
+	
 	
 }
 
-section.info div.rodape{
-  background-color: rgb(255,140,0);
-  margin-top: 20vh;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-  height: 25vh; 
-  border-top: solid 3px rgb(0,0,255)
-}
-
-section.info div.redes-sociais{
+section.text{
 	display: flex;
-	margin-top: 1vh;
-	margin-right: 3vh;
-	justify-content: right;
+
+}
+
+section.text div.imagem-main{
+	margin-top: 10vh;
+	margin-left: 20vh;
 	
 }
 
-section.info div.endereco{
-	margin-top: 0;
-	text-align: center;
-	
+section.text div.texto-geral{
+	float:right;
+	padding: 10vh;
+    max-width:500px;
+    margin-right: 20vh;
 }
-
-section.info div.texto-endereco p{
-	margin-top: 0;
-	margin: 6px;
+section.text div.texto-geral h3{
+	font-size: 30px;
+}
+section.text div.texto-geral p{
 	font-size: 20px;
+}
+
+div.rodape{
+	display: flex;
+	background-color:rgb(255,140,0);
+	padding: 10px;
+	max-height: 200px;
+}
+
+div.rodape-main{
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	min-width: 30%;
+	max-width: 20%;
+}
+
+div.rodape-main h3{
 	text-align: center;
-	
+	color: rgb(255,255,255);
+}
+
+div.rodape-main #foto{
+	float: right;
+	align-items: right;
+	justify-content: right;
 	
 }
