@@ -63,29 +63,38 @@ section.superior-banner div.imagem-superior{
 	justify-content: center;
 	margin-left: 50vh;
 	margin-right: 50vh;
-	
-	
+
 }
 
-section.conteudo{
-	display: flex;
-}
 
-.conteudo-imagem img{
-	width: 500px;
-	margin-top: 10vh;
+.sobre{
+	margin:  20vh;
+	margin-top: 20vh;
 	margin-left: 10vh;
- 
+	margin-right: 10vh;
+	margin-bottom: 20vh;
+}
+.conteudo{
+	display: table;
 }
 
-section.conteudo div.text{
-	text-align: center;
-	margin-right: 80px;
-	margin-left: 14px;
-	margin-top: 40px;
+.destaquesobre{
+	float: left;
+}
+.destaquesobre img{
+	height: 400px;
+	margin-right: 4vh;
+}
+
+.textosobre h3{
+	margin-top: 6vh;
+	font-size: 25px;
 	
 }
 
+.textosobre p {
+	font-size: 20px;
+}
 
 fieldset{
 	background-color: rgb(255,235,205);
