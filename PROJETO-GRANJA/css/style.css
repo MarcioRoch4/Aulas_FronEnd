@@ -67,30 +67,52 @@ section.superior-banner div.imagem-superior{
 	
 }
 
-section.text{
+section.conteudo{
 	display: flex;
-
 }
 
-section.text div.imagem-main{
+.conteudo-imagem img{
+	width: 500px;
 	margin-top: 10vh;
-	margin-left: 20vh;
+	margin-left: 10vh;
+ 
+}
+
+section.conteudo div.text{
+	text-align: center;
+	margin-right: 80px;
+	margin-left: 14px;
+	margin-top: 40px;
 	
 }
 
-section.text div.texto-geral{
-	float:right;
-	padding: 10vh;
-    max-width:500px;
-    margin-right: 20vh;
-}
-section.text div.texto-geral h3{
-	font-size: 30px;
-}
-section.text div.texto-geral p{
+
+fieldset{
+	background-color: rgb(255,235,205);
+	border: 0;
+	border-radius: 10px;
+	margin-left: 60vh;
+	margin-right: 60vh;
 	font-size: 20px;
+
 }
 
+.informacoes{
+	margin-bottom: 2vh;
+	
+	
+}
+
+.duvidas{
+	margin-bottom: 2vh;
+	
+}
+#nome, #email{
+	height: 30px;
+}
+#duvida{
+	height: 160px;
+}
 .footer.footer{
 	background-color: rgb(255,140,0);
 	position: relative;
@@ -101,20 +123,19 @@ section.text div.texto-geral p{
 }
 
 .contato{
-	margin-left: 45px;
+	margin-left: 30px;
 	
 }
 
 .footer.footer .container{
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	display: flex;
 	
 }
 
 .footer.footer .container > div{
 	flex-grow: 1;
 	flex-basis: 0;
-	padding: 3rem 0.9rem;
+	padding: 2vh 0.9vh;
 }
 
 .footer h2{
@@ -129,3 +150,4 @@ section.text div.texto-geral p{
 .footer .sobre-nos{
 	margin-left: 30px;
 }
+
