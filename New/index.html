@@ -21,7 +21,6 @@
         }
 
         .titulosBrancos{
-            text-decoration: underline;
             text-underline-position: below;
             padding-bottom: 20px;
             text-transform: uppercase;
@@ -39,6 +38,24 @@
         }
         .textoBranco{
             color: white !important;
+        }
+
+        .img{
+          height: 300px;
+
+        }
+
+        .top{
+          background-color: white;
+        }
+
+        .espaco{
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
+        .espaco2{
+          margin-top: 40px;
+          margin-bottom: 60px;
         }
 
 </style>
@@ -75,10 +92,18 @@
       </ul>
     </div>
   </nav>
+
+<!-- Logo -->
+
+  <section class="jumbotron text-center top">
+    <div class="container top ">
+        <img class="img" src="img/granjadosrochas.png">
+    </div>
+  </section>
  
   <!-- Informações -->
 
-  <div class="album py-5 bg-light">
+  <div class="album py-5 top">
     <div class="container">
             <h2 class="jumbotron-heading text-center">Informações</h2>
       <div class="row">
@@ -114,16 +139,28 @@
         </div>
     </div>
 
+
+<!-- Formulario -->
+
+<form class="">
+    <h2 class="jumbotron-heading text-center titulosBrancos espaco">Tire sua dúvida aqui</h2>
+  <div class="form-group espaco ">
+    <label for="exampleFormControlInput1">Digite seu e-mail</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group espaco2">
+    <label for="exampleFormControlTextarea1">Qual sua dúvida?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
+
 <!-- Sobre Nós -->
 <section class="jumbotron text-center corPrimaria">
-    <div class="conteiner">
-        <h2 class="jumotron heading titulosAzul">Sobre Nós</h2>
-        <p class="lead titulosAzul">Somos uma empresa que iniciou em um terreno pequeno, onde a familia notou a necessidade de alimentos saudáveis, criamos a Granja dos Rochas. Oferecendo galinhas, cordonas e ovos super natural. E a produção in natura e temperados. Hoje um sucesso de vendas</p>
-    </div>
+  <div class="conteiner ">
+      <h2 class="jumotron heading titulosAzul">Sobre Nós</h2>
+      <p class="lead titulosAzul">Somos uma empresa que iniciou em um terreno pequeno, onde a familia notou a necessidade de alimentos saudáveis, criamos a Granja dos Rochas. Oferecendo galinhas, cordonas e ovos super natural. E a produção in natura e temperados. Hoje um sucesso de vendas</p>
+  </div>
 </section>
-
-
-
 
 
 <!-- Rodapé -->
