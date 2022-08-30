@@ -15,6 +15,7 @@ section.info{
 	
 }
 
+
 section.info div.menus{
 	text-align: center;
 	padding-top: 2vh;
@@ -39,6 +40,7 @@ li a:hover:not(.active) {
     color: rgb(0,0,0);
 	
 }
+
 
 
 section.superior-banner div.superior{
@@ -66,10 +68,6 @@ section.superior-banner div.imagem-superior{
 	margin-left: 10vh;
 	margin-right: 10vh;
 	margin-bottom: 20vh;
-}
-.conteudo{
-	height: 100%;
-	
 }
 
 .destaquesobre{
@@ -161,3 +159,89 @@ fieldset{
 	margin-left: 30px;
 }
 
+@media (max-width: 425px) { 
+ 
+	.menus ul{
+		display: flex;
+		text-align: left;
+		
+		
+	}
+	
+	li a{
+		text-align: center;
+		margin-left: -25px;
+		
+	}
+	
+	.imagem-superior img{
+	 height: 200px;
+	 margin-right: 90vh;
+ }
+
+.destaquesobre{
+	float: center;
+}
+.destaquesobre img{
+	display: none;
+	
+}
+
+.textosobre img{
+	display: none;
+	
+	
+}
+
+fieldset{
+	display: none;
+}
+
+ .informacoes{
+	display: nome;
+}
+
+.duvidas{
+	display: none;
+}
+
+	.sobre-nos{
+	 display: none;
+ }
+
+	.contato{
+	 display: none;
+ }
+ 
+	.fale-conosco{
+	display: none;
+	}
+ 
+ .rede-social{
+	text-align: center;
+ }
+ 
+ }
+ 
+ @media (max-width: 1024px){
+	 
+	 .menus ul{
+		margin-right: 15vh;
+		
+		
+	}
+	 
+	 fieldset{
+	display: none;
+}
+
+ .informacoes{
+	display: nome;
+}
+
+.duvidas{
+	display: none;
+}
+	
+	 
+ }
