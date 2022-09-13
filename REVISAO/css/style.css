@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Merriweather:wght@300&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+video {
+	margin: 30px auto;
+    display: block;
+	
+}
+
+.botao{
+	text-align: center;
+
+}
+
+input{
+	background-color: rgb(0,0,0);
+	color: rgb(255,255,255);
+}
+.modo{
+	text-align: center;
+	
+}
+h1{
+	color: rgb(0,0,0);
+	text-align: center;
+}
+
+.modo a{
+	background-color: rgb(0,0,0);
+	text-align: center;
+	text-decoration: none;
+	text-align: center;
+	color: rgb(255,255,255);
+	padding: 10px;
+	border: solid 2px;
+	border-radius: 10px;
+}

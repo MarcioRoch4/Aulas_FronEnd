@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+ <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Granja dos Rochas</title>
+	  <link rel="stylesheet" href="css/style.css">
+	  <script src="https://kit.fontawesome.com/f7b2963cc1.js" crossorigin="anonymous"></script>
+	  
+	  <style>
+	
+	  </style>
+
+</head>
+
+<body>
+		
+	<div class="container">
+		<h3>Lista dinâmica</h3>
+		<h4>Insira um novo item:</h4>
+		<input type="text" id="item">
+	</br>
+		<input type="button" id="botao" value="adicionar" onclick="adicionarItem()">
+	</div>
+		<ul id="lista">
+		</ul>
+		
+		<script>
+			function adicionarItem () {
+			let item = document.getElementById("item").value;
+			console.log(item);
+			let lista = document.getElementById("lista");
+			console.log(lista);
+			lista.innerHTML += "<li>" +item+ "</li>";
+			document.getElementById('item').value = ''
+
+			}
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<! DOCTYPE hmtl>
+
+<html lang="pt-br">
+
+<head>
+ <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>REVISÃO</title>
+	  <link rel="stylesheet" href="css/style.css">
+	  
+	  <style>
+	
+	  </style>
+
+</head>
+
+<body>	
+	
+	<video width="500" height="300" id="video1">
+	      <source src="src/video.mp4" type="video/mp4" >
+	  </video>  
+      <div class="botao">
+	  <input type="button" value="Iniciar/Pausar" onclick="playPause()">
+
+		</div="modo">
+		
+		<h1 id="titulo">Modo Diurno</h1>
+	<a href="#" id="botao" onclick="modoNoturno()"> Ativar modo noturno</a>
+			  
+			  
+			  <script type="text/javascript">
+			  
+           let meuVideo = document.querySelector("#video1") ;	
+		   
+		   function playPause() {
+		   
+		   if(meuVideo.paused){
+               meuVideo.play()
+      }else{
+	        meuVideo.pause()
+	  
+	  }
+	  
+	}
+	
+	function modoNoturno(){
+	let textoH1 = document.getElementById("titulo");
+	let botão = document.getElementById("botao");
+	
+	if(textoH1.innerText == "Modo Diurno") {
+		
+	document.body.style.backgroundColor ="rgb(0,0,0)";
+	textoH1.innerHTML = "Modo Noturno";
+	textoH1.style.color = "rgb(255,255,255)";
+	botao.style.backgroundColor ="rgb(255,255,255)";
+	botao.style.color = "rgb(0,0,0)";
+	botao.innerHTML = "Ativar modo diurno";
+	
+	}else{
+	
+	document.body.style.backgroundColor ="rgb(255,255,255)";
+	textoH1.innerHTML = "Modo Diurno";
+	textoH1.style.color = "rgb(0,0,0)";
+	botao.style.backgroundColor ="rgb(0,0,0)";
+	botao.style.color = "rgb(255,255,255)";
+	botao.innerHTML = "Ativar modo noturno";
+
+	}
+		
+	
+
+}
+	 </script>
+</body>
+
+</html>
